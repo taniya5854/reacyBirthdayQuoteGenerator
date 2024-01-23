@@ -1,100 +1,70 @@
-# React Firebase Birthday Quote Generator
-Birthday quote generator site made on react
+# Getting Started with Create React App
 
-## Overview
-This project involves react and Firebase concepts. It includes a sign-up page, Firebase authentication, and real-time database integration. The application calculates and displays the days left until a user's birthday, showing a personalized birthday message and a random quote if the birthday is today.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Table of Contents
-- [TO-DO](#to-do)
-- [Setup](#setup)
-- [Screenshots](#screenshots)
-- [Status](#status)
-- [References](#references)
+## Available Scripts
 
-## TO-DO
+In the project directory, you can run:
 
-- [x] Create an InputField component that props for the appropriate data. For example: name, label,
-value, placeholder, etc.
-- [x] React components for your login and register forms. Use the InputField component you created
-for the form fields.
-- [x] Use a date picker for the user's birthdate.
-- [x] Implement Firebase Auth and Realtime Database to store user data.
-- [x] Calculate and display the days left until the user's birthday.
-- [x] Show a happy birthday message and a random quote if it's the user's birthday.
-- [x] Display the countdown if it's not the user's birthday.
-- [x] Implement user login/logout functionality.
+### `npm start`
 
-## Setup
-### Prerequisites
-Make sure you have the following installed on your machine:
-- Node.js
-- npm (Node Package Manager)
-- Visual Studio Code
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Firebase Project Setup
-1. **Create a Firebase Project:**
-   - Go to the [Firebase Console](https://console.firebase.google.com/).
-   - Click on "Add project" and follow the instructions to create a new Firebase project.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-2. **Enable Firebase Authentication:**
-   - In the Firebase Console, navigate to "Authentication" and enable the desired authentication method (e.g., Email/Password).
+### `npm test`
 
-3. **Set Up Realtime Database:**
-   - In the Firebase Console, navigate to "Database" and create a Realtime Database.
-   - Set up rules for your database (for testing purposes, you can start with allowing read and write access to all).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-4. **Get Firebase Config:**
-   - In the Firebase Console, go to "Project settings" (gear icon).
-   - Under the "General" tab, find the Firebase SDK snippet and copy the configuration object.
+### `npm run build`
 
-### Code Integration
-1. npm install
-2. create-react-app app-name
-3. npm install firebase
-4. **Write Firebase Authentication Code:**
-   - Write authentication code using the Firebase Auth SDK in your project.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-5. **Write Realtime Database Code:**
-   - Write code to interact with the Firebase Realtime Database using the Firebase Realtime Database SDK.
-  
-### GitHub Setup
-1. **Initialize Git:**
-   - If not already initialized, run: `git init`
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-2. **Create a .gitignore file:**
-   - Create a .gitignore file and add entries for files and directories you don't want to include in your Git repository.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-3. **Commit and Push:**
-   - Add, commit, and push your code to GitHub.
-## Screenshots
-### SignUp Page
-![SignupPage](https://github.com/taniya5854/firebaseBirthday/assets/63139873/3d19a4d0-7812-482a-8810-a3a3540f183c)
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Login Page
-![loginPage](https://github.com/taniya5854/firebaseBirthday/assets/63139873/ec6544b9-093d-43e5-a852-45271cfc67fd)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Number Of Days Left page
-![NoOfDaysLeftUntilBday_Page](https://github.com/taniya5854/firebaseBirthday/assets/63139873/679e1e3d-092b-4c84-b284-d4efdc6516d9)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### Birthday Message With Quote
-![bdayQuotePage](https://github.com/taniya5854/firebaseBirthday/assets/63139873/2d28afb6-4cbf-471c-85a4-448aa357d709)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-### Alerts Message for Error
-![AlertMessageForError](https://github.com/taniya5854/firebaseBirthday/assets/63139873/7b654729-b6f5-4003-917d-121448c4db29)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Firebase Auth and Realtime Database dashboard
-- Firebase Auth dashboard
-![authenticationDashbord](https://github.com/taniya5854/firebaseBirthday/assets/63139873/9b38fce4-74f8-4935-8a02-087d50d57800)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- Firebase Realtime Database dashboard
-- ![datastoredInRealTimeDatabase](https://github.com/taniya5854/firebaseBirthday/assets/63139873/311db193-ce56-4099-ac2e-c4aad81b6d0e)
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Status
-Project Status: Completed
+### Analyzing the Bundle Size
 
-## References
-- [Firebase Documentation](https://firebase.google.com/)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
