@@ -1,0 +1,38 @@
+.container{
+    max-width: 800px;
+    max-height: auto;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+.signOutBtn{
+    width: 20%;
+    height:max-content;
+    background-color: rgb(59, 4, 59);
+    color: white;
+    border: none ;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+}
+.firstText, .secondText{
+    color: #484848;
+}
+.firstText{
+    font-size: 100px;
+}
+.secondText{
+    font-size: 50px;
+}
+.thirdText{
+    font-size: 20px;
+}

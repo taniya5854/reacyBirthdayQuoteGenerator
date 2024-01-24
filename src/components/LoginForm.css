@@ -1,0 +1,50 @@
+.h1Class{
+text-align: center;
+color: purple;
+}
+.loginText{
+text-align: center;
+color: grey;
+}
+.formClass {
+   font-family: "Times New Roman", Times, serif;
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display:block;
+    box-sizing: border-box;
+}
+
+.loginButton{
+    width: 30%;
+    height:max-content;
+    background-color: rgb(59, 4, 59);
+    color: white;
+    border: none ;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: large;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  button:hover {
+    background-color: #801cba;
+  }
+  .createNewUserText{
+    color: grey;
+    font-size: large;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }

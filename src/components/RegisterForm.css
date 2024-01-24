@@ -1,0 +1,57 @@
+.h1Class{
+    text-align: center;
+    color: purple;
+}
+.createAnAccountText{
+    text-align: center;
+    color: grey;
+}
+.signupForm {
+    font-family: "Times New Roman", Times, serif;
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* display:block; */
+    box-sizing: border-box;
+}
+
+.signUpButton{
+    width: 30%;
+    height:max-content;
+    background-color: rgb(59, 4, 59);
+    color: white;
+    border: none ;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: #801cba;
+}
+.loginText{
+    color: grey;
+}
+
+.alreadyUserText{
+    color: grey;
+    font-size: large;
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
